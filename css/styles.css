@@ -1,4 +1,52 @@
-.fb-head {
-    background-color: #2E7ADE;
-    color: #FFF;
+.fb-head, .fb-head a {
+    background-color: #2E7ADE!important;
+    color: #FFF!important;
+}
+
+.fb-head a {
+    font-weight: bold;
+}
+.fb-head p {
+    padding-right: 15px;
+}
+.padding-first-name {
+    padding: 0 4px 10px 0 !important
+}
+.padding-unset {
+    padding: unset!important;
+}
+.botron1 {
+    width: 100%;    
+    background: url("../images/banner.jpg") no-repeat scroll 50% 50% / 100% auto;
+    margin-top: unset!important;
+    margin-bottom: unset!important;
+    border-radius: unset!important;
+}
+
+
+@media (min-width: 700px) {
+  .botron1 {
+    min-height: 314px;
+  }
+}
+
+
+.navbar {
+    margin-bottom: unset!important;
+}
+
+.profile-img {
+    background-color: gold;
+    border: 1px solid #000;
+    float: left;
+    margin: -125px 0 0;
+}
+
+.profile-img img {
+    width: 160px;
+    height: 160px;
+}
+
+.navbar-right {
+    margin-right: unset!important;
 }
