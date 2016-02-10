@@ -41,12 +41,50 @@
     float: left;
     margin: -125px 0 0;
 }
+.friend-pic-container {
+    padding: 10px;
+    float: left;
+}
 
 .profile-img img {
     width: 160px;
     height: 160px;
 }
-
+.friend-pic {
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+}
 .navbar-right {
     margin-right: unset!important;
+}
+.table {
+    display: table;
+}
+.table-row {
+    display: table-row;
+}
+
+.main-container {
+    border: 1px solid #000000;
+}
+.table-cell {
+    display: table-cell;
+}
+.header-bg {
+    background-color: #999;
+}
+.row {
+    padding: 0 15px;
+}
+
+.friends {
+    padding: 15px;
+    border: 1px solid #000;
+}
+.friends:first-child{
+    margin-top:15px!important;
+}
+.friends:last-child{
+    margin-bottom:15px!important;
 }
